@@ -1,0 +1,4 @@
+@font-face {
+	font-family: 'NintendoSW-Font';
+	src: url('./NSW_Font.woff') format('woff'), url('./NSW_Font.woff2') format('woff2');
+}

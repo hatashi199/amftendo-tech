@@ -1,0 +1,11 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('../fonts/NSW/NSW.css');
+
+html,
+body {
+	font-family: 'NintendoSW-Font', sans-serif;
+	background-color: var(--bg-dark);
+	color: var(--color-dark);
+	font-size: 16px;
+}
