@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
-export const FooterTechWrapper = styled.header`
+interface Props {
+	borderTp: boolean;
+}
+
+export const FooterTechWrapper = styled.footer<Props>`
 	background-color: var(--bg-dark);
 	color: var(--color-white);
-	border-top: 1px solid var(--color-white);
+	border-top: ${(props) => (props.borderTp ? `1px solid var(--color-white)` : `0`)};
 	min-height: 80px;
 	display: flex;
 	align-items: center;
